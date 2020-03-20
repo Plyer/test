@@ -11,8 +11,6 @@ public class Son extends Father {
 
     public static void main(String[] args) {
         Son son = new Son();
-        System.out.println(son.getName());
-        son.setName("father1");
-        System.out.println(son.getName());
+        System.out.println(son.self());
     }
 }

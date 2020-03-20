@@ -38,7 +38,7 @@ public class Test {
 
 		CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost post = new HttpPost(url);
-        List<NameValuePair> formParams = new ArrayList<NameValuePair>();
+        List<NameValuePair> formParams = new ArrayList<>();
         //表单参数
         formParams.add(new BasicNameValuePair("pageObject.totalPageNum", "555"));
         formParams.add(new BasicNameValuePair("pageObject.pageClick", "1"));
