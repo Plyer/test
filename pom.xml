@@ -47,11 +47,25 @@
             <artifactId>thumbnailator</artifactId>
             <version>[0.4, 0.5)</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.mortennobel/java-image-scaling -->
         <dependency>
             <groupId>com.mortennobel</groupId>
             <artifactId>java-image-scaling</artifactId>
             <version>0.8.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.softwareloop</groupId>
+            <artifactId>mybatis-generator-lombok-plugin</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.49</version>
         </dependency>
     </dependencies>
 
